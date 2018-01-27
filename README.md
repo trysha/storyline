@@ -1,2 +1,2 @@
 # storyline
-A story organization system for google docs.
+A story organization system
