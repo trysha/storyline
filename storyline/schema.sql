@@ -32,12 +32,6 @@ CREATE TABLE arcs (
 DROP TABLE IF EXISTS warning_map;
 CREATE TABLE warning_map (
   storyid TEXT NOT NULL,
-  warningid TEXT NOT NULL
-);
-
-DROP TABLE IF EXISTS warnings;
-CREATE TABLE warnings (
-  warningid TEXT PRIMARY KEY,
   name TEXT NOT NULL
 );
 
