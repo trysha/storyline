@@ -1,0 +1,3 @@
+graft storyline/templates
+graft storyline/static
+include storyline/schema.sql
