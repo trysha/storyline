@@ -11,7 +11,7 @@ def root():
     """
     A happy little index
     """
-    return render_template("index.html")
+    return render_template("page.html")
 
 
 @app.route("/api/v1/story/<int:storyid>", methods=['GET'])
