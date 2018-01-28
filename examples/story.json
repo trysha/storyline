@@ -1,18 +1,22 @@
 {
     "title": "Mixed Feelings",
     "teaser": "Yulia has encounter with a rogue that she won't forget",
-    "synopsis": "Yulia meets Mx En after an accidental triggering of her powers makes her flee to an unknown neighborhood and she gets into an altercation with some transphobic locals. After Mx En drives them away, ey unknowingly triggers a swap with Yulia: she gets eir unassailable confidence and gives em the lust ey inspired in her. Overwhelmed, out of eir element, and unused to the feelings, Mx En encourages Yulia to kiss em, and despite it being her first kiss, she does so without hesitation, thanks to the unfamiliar confidence. They get interrupted by a \"job\" that Mx En had mentioned, and when it becomes clear that Mx En can't operate to eir usual standards, ey drags her along. The ultraconfident Yulia meets the Family mobster Tobias, who gives them some intel on the Family—along with some vaguely intimidating threats. Before parting ways, Mx En tells Yulia ey owes her a favor, and instructs her to \"Ask what y'wanna ask.\" Yulia asks to see em again once they're both back to their usual selves, and ey agrees, promising to find her again in the future.",
+    "synopsis": "Yulia meets Mx En after an accidental triggering of her powers makes her flee to an unknown neighborhood and she gets into an altercation with some transphobic locals. After Mx En drives them away, ey unknowingly triggers a swap with Yulia: she gets eir unassailable confidence and gives em the lust ey inspired in her. Overwhelmed, out of eir element, and unused to the feelings, Mx En encourages Yulia to kiss em, and despite it being her first kiss, she does so without hesitation, thanks to the unfamiliar confidence.\n\nThey get interrupted by a \"job\" that Mx En had mentioned, and when it becomes clear that Mx En can't operate to eir usual standards, ey drags her along. The ultraconfident Yulia meets the Family mobster Tobias, who gives them some intel on the Family—along with some vaguely intimidating threats.\n\nBefore parting ways, Mx En tells Yulia ey owes her a favor, and instructs her to \"Ask what y'wanna ask.\" Yulia asks to see em again once they're both back to their usual selves, and ey agrees, promising to find her again in the future.",
     "url": "https://docs.google.com/document/d/1AnBZ_Yr7ggubr3S5Zcr_QryvzUdCCeYly-jDFqdIllY/edit",
     "date": 1234512345,
     "sequence":  100000.3,
-    "storyid": "1234-1234-1234-1234",
+    "storyid": 1234,
     "nsfw": false,
-    "contentWarnings": ["transphobia", "slurs"],
     "arcs": [
         {"name": "amy book 3", "required": false, "sequence": 102.0},
         {"name": "yulia's origin", "required": true, "sequence": 6.0}
     ],
+    "contentWarnings": ["transphobia", "slurs"],
     "tags": ["kissing", "memetics"],
-    "references": ["uuid-of-other-story1", "uuid-of-other-story2"],
-    "characters": ["yulia", "mx en", "tobias"]
-}
+    "references": ["storyid-of-other-story1", "storyid-of-other-story2"],
+    "characters": [
+        {"alias":"yuki", "character":"yulia"},
+        {"alias": "mx en"},
+        {"alias": "tobias"}
+    ]
+ }

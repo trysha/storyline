@@ -5,7 +5,7 @@
  */
 DROP TABLE IF EXISTS stories;
 CREATE TABLE stories (
-  storyid TEXT primary key,
+  storyid INT primary key,
   title TEXT NOT NULL,
   teaser TEXT NOT NULL, 
   synopsis TEXT,
@@ -17,7 +17,7 @@ CREATE TABLE stories (
 
 DROP TABLE IF EXISTS arc_map;
 CREATE TABLE arc_map (
-  storyid TEXT NOT NULL,
+  storyid INT NOT NULL,
   arcid TEXT NOT NULL,
   required BOOLEAN NOT NULL,
   sequence FLOAT NOT NULL
@@ -31,13 +31,13 @@ CREATE TABLE arcs (
 
 DROP TABLE IF EXISTS warning_map;
 CREATE TABLE warning_map (
-  storyid TEXT NOT NULL,
+  storyid INT NOT NULL,
   name TEXT NOT NULL
 );
 
 DROP TABLE IF EXISTS tag_map;
 CREATE TABLE tag_map (
-  storyid TEXT NOT NULL,
+  storyid INT NOT NULL,
   tagid TEXT NOT NULL
 );
 
@@ -49,7 +49,7 @@ CREATE TABLE tags (
 
 DROP TABLE IF EXISTS ref_map;
 CREATE TABLE ref_map (
-  storyid TEXT NOT NULL,
+  storyid INT NOT NULL,
   refid TEXT NOT NULL
 );
 
@@ -62,7 +62,7 @@ CREATE TABLE characters (
 
 DROP TABLE IF EXISTS character_map;
 CREATE TABLE character_map (
-  storyid TEXT NOT NULL,
+  storyid INT NOT NULL,
   characterid TEXT NOT NULL
 );;
 
